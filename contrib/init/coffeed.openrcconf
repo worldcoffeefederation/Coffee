@@ -1,0 +1,26 @@
+# /etc/conf.d/coffeed: config file for /etc/init.d/coffeed
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/coffee/coffee.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/coffeed"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/coffeed.pid"
+
+# Where to write coffeed data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/coffeed"
+
+# User and group to own coffeed process
+#BITCOIND_USER="coffee"
+#BITCOIND_GROUP="coffee"
+
+# Path to coffeed executable
+#BITCOIND_BIN="/usr/bin/coffeed"
+
+# Nice value to run coffeed under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

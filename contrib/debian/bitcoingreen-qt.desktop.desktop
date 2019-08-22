@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Coffee
+Comment=Coffee P2P Cryptocurrency
+Exec=coffee-qt %u
+Terminal=false
+Type=Application
+Icon=coffee128
+MimeType=x-scheme-handler/coffee;
+Categories=Office;Finance;
+Name[en_US]=coffee-qt.desktop

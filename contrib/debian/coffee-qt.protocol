@@ -1,0 +1,11 @@
+[Protocol]
+exec=coffee-qt '%u'
+protocol=coffee
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

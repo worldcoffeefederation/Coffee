@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/coffee_bg.qm</file>
+        <file alias="ca">locale/coffee_ca.qm</file>
+        <file alias="cs">locale/coffee_cs.qm</file>
+        <file alias="da">locale/coffee_da.qm</file>
+        <file alias="de">locale/coffee_de.qm</file>
+        <file alias="en">locale/coffee_en.qm</file>
+        <file alias="en_US">locale/coffee_en_US.qm</file>
+        <file alias="es">locale/coffee_es.qm</file>
+        <file alias="fi">locale/coffee_fi.qm</file>
+        <file alias="fr_FR">locale/coffee_fr_FR.qm</file>
+        <file alias="it">locale/coffee_it.qm</file>
+        <file alias="ja">locale/coffee_ja.qm</file>
+        <file alias="ko_KR">locale/coffee_ko_KR.qm</file>
+        <file alias="nl">locale/coffee_nl.qm</file>
+        <file alias="pl">locale/coffee_pl.qm</file>
+        <file alias="pt">locale/coffee_pt.qm</file>
+        <file alias="pt_BR">locale/coffee_pt_BR.qm</file>
+        <file alias="ro_RO">locale/coffee_ro_RO.qm</file>
+        <file alias="ru">locale/coffee_ru.qm</file>
+        <file alias="sk">locale/coffee_sk.qm</file>
+        <file alias="sv">locale/coffee_sv.qm</file>
+        <file alias="tr">locale/coffee_tr.qm</file>
+        <file alias="uk">locale/coffee_uk.qm</file>
+        <file alias="zh_CN">locale/coffee_zh_CN.qm</file>
+        <file alias="zh_TW">locale/coffee_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,26 @@
+[Unit]
+Description=Coffee's distributed currency daemon
+After=network.target
+
+[Service]
+User=coffee
+Group=coffee
+
+Type=forking
+PIDFile=/var/lib/coffeed/coffeed.pid
+
+ExecStart=/usr/bin/coffeed -daemon -pid=/var/lib/coffeed/coffeed.pid \
+          -conf=/etc/coffee/coffee.conf -datadir=/var/lib/coffeed
+
+ExecStop=-/usr/bin/coffee-cli -conf=/etc/coffee/coffee.conf \
+         -datadir=/var/lib/coffeed stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
