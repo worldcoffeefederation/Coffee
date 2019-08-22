@@ -1653,7 +1653,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
         return 0;
 
     // Check if we reached coin supply
-    ret = blockValue * 0.50; // 60% of block reward
+    ret = blockValue * 0.50; // 50% of block reward
 
     return ret;
 }
